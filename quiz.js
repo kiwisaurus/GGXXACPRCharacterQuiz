@@ -172,7 +172,7 @@
     var answerKey = {
         "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order-Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
         "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",1],
-        "Balance":["Anji","Axl","Ky","Sol","Robo Ky",1],
+        "Balanced":["Anji","Axl","Ky","Sol","Robo Ky",1],
         "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order-Sol","Slayer","Sol","Venom",1],
         "Durability":["ABA","Anji","Justice","Potemkin",1],
         "Mobility":["Dizzy","Millia",1],
@@ -232,8 +232,8 @@
         "Zappa":0
     }
     for (var i = 0; i < selections.length; i++) {
-        console.log(selections[i]);
-        console.log(answerKey[selections[i]]);
+        console.log(selections[i]+ ' ' + answerKey[selections[i]]);
+        //console.log(answerKey[selections[i]]);
         for (var j=0; j< answerKey[selections[i]].length-1; j++) {
             var characterToScore = answerKey[selections[i]][j];
             var scoreSpot = answerKey[selections[i]].length-1
@@ -246,7 +246,7 @@
     var choiceScore = -100;
     for(var key1 in characterKey){
         if (characterKey[key1] > choiceScore){
-            choiceScore = key1[11];
+            choiceScore = characterKey[key1];
             choice = key1;
             console.log(choice);
         }
