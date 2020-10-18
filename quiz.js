@@ -173,18 +173,18 @@
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
     var answerKey = {
-        "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order Sol","Potemkin","Slayer","Venom","Zappa","Testament",1],
-        "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",1],
-        "Balanced":["Anji","Axl","Ky","Sol","Robo Ky",1],
+        "Pressure":["ABA","Baiken","Eddie","Faust","I-no","Johnny","Justice","Kliff","May","Order Sol","Potemkin","Slayer","Venom","Zappa","Testament",3],
+        "Outmaneuver":["Bridget","Chipp","Dizzy","Jam","Millia",3],
+        "Balanced":["Anji","Axl","Ky","Sol","Robo Ky",3],
         
-        "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order Sol","Slayer","Sol","Venom",1],
-        "Durability":["ABA","Anji","Justice","Potemkin",1],
-        "Mobility":["Dizzy","Millia",1],
-        "Utility":["Axl","Bridget","Chipp","Eddie","Faust","Ky Kiske","Robo Ky","Testament","Zappa",1],
+        "Damage":["Baiken","I-no","Jam","Johnny","Kliff","May","Order Sol","Slayer","Sol","Venom",3],
+        "Durability":["ABA","Anji","Justice","Potemkin",3],
+        "Mobility":["Dizzy","Millia",3],
+        "Utility":["Axl","Bridget","Chipp","Eddie","Faust","Ky Kiske","Robo Ky","Testament","Zappa",3],
         
-        "Close":["ABA","Sol","Jam","Order Sol","Slayer","Potemkin","Chipp","May",2],
-        "Medium":["Ky","Anji","Millia","Baiken","Robo Ky","Johnny","Axl","Kliff","Bridget","Zappa","I-no",2],
-        "Long":["Faust","Justice","Testament","Venom","Dizzy","Eddie",2],
+        "Close":["ABA","Sol","Jam","Order Sol","Slayer","Potemkin","Chipp","May",3],
+        "Medium":["Ky","Anji","Millia","Baiken","Robo Ky","Johnny","Axl","Kliff","Bridget","Zappa","I-no",3],
+        "Long":["Faust","Justice","Testament","Venom","Dizzy","Eddie",3],
         
         "Yes, I do social distance":["Bridget","Dizzy","Justice","Venom","Testament","Axl","Faust",3],
         "No, I'm in a frat":["Bridget","Dizzy","Justice","Venom","Testament","Axl","Faust",-1],
@@ -195,8 +195,8 @@
         "Yes, the less they play the more I play":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",3],
         "No, there is not a finite amount of game to go around":["Baiken","Eddie","Dizzy","Anji","Chipp","I-no","Johnny","Justice","Kliff","Ky","Millia","Order Sol","Testament","Venom",-2],
         
-        "Yes, what moves I have should be a mixup":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament",3],
-        "No, If I wanted more moves I'd play a tag fighter":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament",-3],
+        "Yes, what moves I have should be a mixup":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament", "Johnny",3],
+        "No, If I wanted more moves I'd play a tag fighter":["Zappa","Robo Ky", "Anji","Baiken","ABA","Testament","Johnny",-5],
         
         "Yes, I want one that goes across the whole screen and ideally into someone else's game":["Axl","Bridget","Dizzy","Eddie","I-no","Justice","Ky","Robo-Ky","Testament","Venom","ABA",3],
         "Yes, but as long as it controls space it's fine":["Anji","Baiken","Chipp","Faust","Johnny","Kliff","May","Millia","Sol","Zappa",2],
